@@ -6,7 +6,7 @@ Tutorial by Ryan Swapp: Get started with Meteor and React <br>
 
 <p>
 This is a Meteor project. <br>
-Added packages: <br>
+Added packages:
 <li> react </li>
 <li> Accounts-password </li>
 <li> kadira:flow-router </li>
