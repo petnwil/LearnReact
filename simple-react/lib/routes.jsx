@@ -12,6 +12,13 @@ FlowRouter.route("/login",{
   }
 });
 
+FlowRouter.route("/about",{
+  name:"About",
+  action(params){
+    renderMainLayout(<About />);
+  }
+})
+
 
 function renderMainLayout(component){
   ReactLayout.render(MainLayout,{
