@@ -19,6 +19,16 @@ FlowRouter.route("/about",{
   }
 })
 
+FlowRouter.route("/test",{
+  name:"Test",
+  action: function(){
+    ReactLayout.render(Test,{
+      table: <Table />,
+      test2: <Jumbotron />
+    })
+  }
+})
+
 
 function renderMainLayout(component){
   ReactLayout.render(MainLayout,{
