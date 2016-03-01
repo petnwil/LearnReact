@@ -3,7 +3,8 @@ Test = React.createClass({
     return(
       <div>
         {this.props.table}
-        {this.props.test2}
+        {this.props.jumbotron}
+        <User />
       </div>
     )
   }

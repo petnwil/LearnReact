@@ -3,28 +3,28 @@ FlowRouter.route("/", {
   action(params){
     renderMainLayout(<Home />);
   }
-});
+})
 
 FlowRouter.route("/login",{
   name:"Login",
   action(params){
     renderMainLayout(<UserLogin />);
   }
-});
+})
 
 FlowRouter.route("/about",{
   name:"About",
   action(params){
     renderMainLayout(<About />);
   }
-})
+});
 
 FlowRouter.route("/test",{
   name:"Test",
   action: function(){
     ReactLayout.render(Test,{
       table: <Table />,
-      test2: <Jumbotron />
+      jumbotron: <Jumbotron />
     })
   }
 })
